@@ -57,24 +57,24 @@ git clone https://github.com/yourusername/phishguard-pro.git
 cd phishguard-pro
 ```
 
-### 2. Install Dependencies
+### 2. Install the pkl files
 ```bash
-pip install -r requirements.txt
+pip install -r <file names>
 ```
 
 ### 3. Download/Create Model Files
-Since the model files are large, you'll need to either:
+Since the model files are large, you'll need to :
 
-**Option A: Train Your Own Model**
+**Step A: Download this file**
 ```bash
-python train_model.py
+gui_updated.py
 ```
 
-**Option B: Download Pre-trained Models**
+**Step B: Download Pre-trained Models**
 - Download `phishing_model(1).pkl` and `vectorizer(1).pkl`
 - Place them in the project root directory
 
-### 4. Run the Application
+### 4. Run the Application and Keep the three files in the same directory
 ```bash
 python gui_updated.py
 ```
